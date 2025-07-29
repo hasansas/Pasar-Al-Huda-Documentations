@@ -24,7 +24,7 @@ A modern, modular, and maintainable Nuxt 3 (TypeScript) application for Pasar Al
 1. 🧱 **Clone Nuxt 3 Starter** from [`https://github.com/hasansas/nuxt3-starter-kit`](https://github.com/hasansas/nuxt3-starter-kit) or create from scratch with `npx nuxi init app-name`.
 2. 📸 **Screenshot** existing design (each page/component).
 3. 🤖 **Ask AI** to generate Vuetify component (strictly avoid inline styles).
-4. 🧩 **Implement** component into Nuxt project inside `/components`.
+4. 🧩 **Implement** component into Nuxt project.
 5. 🔌 **Add logic** using composables, Pinia, and API integrations.
 6. ✅ Test the 4 UI states: Loading, Error, Data, Empty.
 
