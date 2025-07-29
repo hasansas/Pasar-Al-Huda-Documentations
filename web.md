@@ -15,7 +15,7 @@ A modern, modular, and maintainable Nuxt 3 (TypeScript) application for Pasar Al
 | HTTP Client      | **Axios** (with interceptor) |
 | State Management | **Pinia**              |
 | Styling          | **SCSS**               |
-| Icons            | **Iconify:lucide**            |
+| Icons            | **Iconify**            |
 
 ---
 
