@@ -21,11 +21,12 @@ A modern, modular, and maintainable Nuxt 3 (TypeScript) application for Pasar Al
 
 ## 🚀 Development Workflow
 
-1. 📸 **Screenshot** existing website (each page/component).
-2. 🤖 **Ask AI** to generate Vuetify component (strictly avoid inline styles).
-3. 🧩 **Implement** component into Nuxt project.
-4. 🔌 **Add logic** using composables, Pinia, and API integrations.
-5. ✅ Test the 4 UI states: Loading, Error, Data, Empty.
+1. 🧱 **Clone Nuxt 3 Starter** from [`https://github.com/hasansas/nuxt3-starter-kit`](https://github.com/hasansas/nuxt3-starter-kit) or create from scratch with `npx nuxi init app-name`.
+2. 📸 **Screenshot** existing design (each page/component).
+3. 🤖 **Ask AI** to generate Vuetify component (strictly avoid inline styles).
+4. 🧩 **Implement** component into Nuxt project inside `/components`.
+5. 🔌 **Add logic** using composables, Pinia, and API integrations.
+6. ✅ Test the 4 UI states: Loading, Error, Data, Empty.
 
 ---
 
@@ -106,13 +107,14 @@ Use `// ...` for variables, mixins, and class notes.
 
 ## 🧾 Naming Conventions
 
-| Type         | Convention         | Example                  |
-|--------------|--------------------|--------------------------|
-| Variable     | `camelCase`        | `chartData`              |
-| Function     | `camelCase`        | `fetchUserSession()`     |
-| Composable   | `useCamelCase`     | `useAuth()`              |
-| Utils        | `camelCase`        | `formatDate()`           |
-| Pages        | `kebab-case.vue`   | `user-dashboard.vue`     |
+| Type         | Convention         | Example                    |
+|--------------|--------------------|----------------------------|
+| Variable     | `camelCase`        | `chartData`                |
+| Function     | `camelCase`        | `fetchUserSession()`       |
+| Logic Func   | `handleCamelCase`  | `handleSubmitForm()`       |
+| Composable   | `useCamelCase`     | `useAuth()`                |
+| Utils        | `camelCase`        | `formatDate()`             |
+| Pages        | `kebab-case.vue`   | `user-dashboard.vue`       |
 
 ---
 
